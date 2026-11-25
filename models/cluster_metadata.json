@@ -1,0 +1,155 @@
+{
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "ca",
+    "sex",
+    "fbs",
+    "exang",
+    "cp",
+    "restecg",
+    "slope",
+    "thal"
+  ],
+  "num_cols": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "ca"
+  ],
+  "bin_cols": [
+    "sex",
+    "fbs",
+    "exang"
+  ],
+  "nom_cols": [
+    "cp",
+    "restecg",
+    "slope",
+    "thal"
+  ],
+  "n_records": 302,
+  "n_transformed_features": 23,
+  "metrics": {
+    "inertia": 2186.73,
+    "silhouette": 0.1722,
+    "davies_bouldin": 2.065,
+    "calinski_harabasz": 66.61,
+    "pca_variance_ratio": [
+      0.2607,
+      0.1344
+    ]
+  },
+  "cluster_sizes": {
+    "0": 137,
+    "1": 165
+  },
+  "cluster_labels": {
+    "0": "Perfil de mayor carga de esfuerzo cardíaco aparente",
+    "1": "Perfil de menor esfuerzo cardíaco aparente"
+  },
+  "cluster_profiles_mean": {
+    "0": {
+      "age": 60.15,
+      "trestbps": 136.82,
+      "chol": 258.34,
+      "thalach": 133.74,
+      "oldpeak": 1.72,
+      "ca": 1.18,
+      "sex": 0.72,
+      "fbs": 0.18,
+      "exang": 0.54,
+      "cp": 0.69,
+      "restecg": 0.42,
+      "slope": 1.09,
+      "thal": 2.46
+    },
+    "1": {
+      "age": 49.66,
+      "trestbps": 127.27,
+      "chol": 236.67,
+      "thalach": 162.71,
+      "oldpeak": 0.48,
+      "ca": 0.34,
+      "sex": 0.65,
+      "fbs": 0.13,
+      "exang": 0.15,
+      "cp": 1.19,
+      "restecg": 0.62,
+      "slope": 1.65,
+      "thal": 2.19
+    }
+  },
+  "feature_ranges": {
+    "age": {
+      "min": 29.0,
+      "max": 77.0,
+      "median": 55.5
+    },
+    "trestbps": {
+      "min": 94.0,
+      "max": 200.0,
+      "median": 130.0
+    },
+    "chol": {
+      "min": 126.0,
+      "max": 564.0,
+      "median": 240.5
+    },
+    "thalach": {
+      "min": 71.0,
+      "max": 202.0,
+      "median": 152.5
+    },
+    "oldpeak": {
+      "min": 0.0,
+      "max": 6.2,
+      "median": 0.8
+    },
+    "ca": {
+      "min": 0.0,
+      "max": 4.0,
+      "median": 0.0
+    },
+    "sex": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "fbs": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "exang": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "cp": {
+      "min": 0.0,
+      "max": 3.0,
+      "median": 1.0
+    },
+    "restecg": {
+      "min": 0.0,
+      "max": 2.0,
+      "median": 1.0
+    },
+    "slope": {
+      "min": 0.0,
+      "max": 2.0,
+      "median": 1.0
+    },
+    "thal": {
+      "min": 0.0,
+      "max": 3.0,
+      "median": 2.0
+    }
+  }
+}
