@@ -80,7 +80,7 @@ En el segundo corte se aplicó `StandardScaler` sobre las 13 variables clínicas
 ## 4. Enlaces del Proyecto
 
 - **Repositorio público en GitHub:** `https://github.com/drop49677-cmyk/segmentacion-cardiovascular-kmeans`
-- **Aplicación pública en Streamlit Community Cloud:** *[Verificar/pegar aquí la URL pública tras actualizar el repositorio en GitHub y sincronizar Streamlit Cloud]*
+- **Aplicación pública en Streamlit Community Cloud:** `https://segmentacion-cardiovascular-kmeans-r8sd9m4yjfhvefwzfdjeef.streamlit.app/`
 
 ---
 
